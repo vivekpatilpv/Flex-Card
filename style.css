@@ -1,0 +1,155 @@
+body{
+    font-family: sans-serif;
+}
+.all-cans{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+}
+
+.container{
+    width: 38rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 0.9rem;
+    padding-top: 0.1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) , 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 48px;
+    
+}
+
+.header{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+}
+
+.header img{
+    width: 10rem;
+    padding-right: 2rem;
+    border-radius: 0.4rem;
+    width: 120px;
+    height: 85px;
+    /* padding-bottom: 2rem; */
+}
+
+.footer{
+    margin: 1rem;
+    font-size: 5px;
+    font-weight: 300;
+}
+.read_btn , .book-mrk_btn{
+    /* font-size: 1.1rem; */
+    font-weight:500;
+    color: blue;
+    border: none;
+    background-color: transparent;
+    padding: 0.6rem;
+    margin: 0.5rem;
+}
+.read_btn:hover , .book-mrk_btn:hover{
+    background-color: rgb(162, 129, 129);
+    border: none;
+}
+.container:hover{
+    background-color:rgb(205, 234, 234);
+    border-radius: 0.9rem;
+    font-size: 15px;
+   
+}
+.icons{
+    display: inline;
+    margin-left:90px;
+}
+#download-icon{
+   padding: 10px;
+}
+#windows-icon{
+    padding: 10px;
+}
+#apple-icon{
+    padding: 10px;
+}
+
+
+
+
+
+
+body{
+    background-color: #CFD2CF;
+}
+
+
+
+
+
+/* NAVBAR */
+*{
+    padding: 0;
+    margin: 0;
+    /* color: #A5C9CA; */
+
+    font-family: monospace;
+}
+
+.topbar{
+    display: flex;
+    background-color: #F5EDDC;
+    padding: 0.625rem;
+    gap: 1.25rem;
+    align-items: center;
+    position: relative;
+        height: 60.05px;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+}
+
+.hamburger-icon{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 0.3125rem;
+}
+
+.ham-icon{
+    /* border-radius: 30%; */
+    background-color: #A5C9CA;
+    width: 1.25rem;
+    height: 0.125rem;
+}
+
+object{
+    /* background-color: #A5C9CA; */
+    /* color: #A5C9CA; */
+    /* filter: invert(98%) sepia(5%) saturate(1815%) hue-rotate(145deg) brightness(84%) contrast(86%); */ 
+    filter: invert(100%) sepia(3%) saturate(6036%) hue-rotate(109deg) brightness(103%) contrast(94%);
+}
+
+.fill{
+    flex-grow: 1;
+}
+
+.service{
+    order: 3;
+}
+
+
+.heading{
+    font-size: 4.5rem;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -34px 0 0 -25px;
+    margin-left: -222px;
+    color: #A2B5BB;
+    
+}
+
